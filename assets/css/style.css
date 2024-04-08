@@ -57,6 +57,14 @@ h6 {
     color: #3d3d3f;
 }
 
+.menu__link{
+    transition: 0.4s ease;
+}
+
+.menu__link:hover {
+    color: #F35F2F ;
+}
+
 .header__btn {
     display: inline-block;
     font-family: "DM Sans", sans-serif;
