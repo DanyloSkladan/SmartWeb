@@ -207,6 +207,26 @@ h6 {
     max-width: 626px;
 }
 
+.top__content{
+    margin-bottom: 149px;
+}
+
+
+
+.services__title{
+    font-family: "DMsans", sans-serif;
+    color: #3d3d3f;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
 
 /* adaptive */
 
