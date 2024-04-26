@@ -216,8 +216,8 @@ h6 {
     grid-template-columns: 1fr 1fr 1fr;
     border: 2px solid rgba(235, 235, 235, 0.8);
     border-radius: 17px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 52px;
+    padding-bottom: 54px;
 }
 
 .services__title {
@@ -232,6 +232,17 @@ h6 {
 
 .srvices__desc{
     text-align: center;
+    position: relative;
+}
+
+
+
+.srvices__desc::before{
+    position: absolute;
+    content: "";
+    border-right: 2px solid rgba(235, 235, 235, 0.8);
+    padding: 200px;
+    transform: translate(1px, 1px);
 }
 
 .services__img{
