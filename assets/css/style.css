@@ -211,7 +211,14 @@ h6 {
     margin-bottom: 149px;
 }
 
-
+.services__price{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid rgba(235, 235, 235, 0.8);
+    border-radius: 17px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 .services__title {
     display: flex;
@@ -221,6 +228,10 @@ h6 {
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 55px;
+}
+
+.srvices__desc{
+    text-align: center;
 }
 
 .services__img{
