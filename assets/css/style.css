@@ -240,10 +240,10 @@ h6 {
 .srvices__desc::before {
     position: absolute;
     content: "";
-    border-right: 2px solid rgba(235, 235, 235, 0.8);
+    border-left: 2px solid rgba(235, 235, 235, 0.8);
     left: 99%;
-    transform: translateY(-10px);
-    height: 216px;
+    transform: translateY(-24px);
+    height: 125%
 }
 
 
@@ -336,7 +336,7 @@ h6 {
     .services__price {
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 30px;
+        grid-gap: 45px;
     }
 
 
@@ -346,20 +346,61 @@ h6 {
 
         position: absolute;
         content: "";
-        border-right: 2px solid rgba(235, 235, 235, 0.8);
+        border-right: 1px solid rgba(235, 235, 235, 0.8);
         left: 50%;
-        transform: translateY(-10px);
+        transform: translate(-105px, 5px);
         rotate: 90deg;
-        height: 408px;
-        
+        height: 331%;
     }
 
 
 
 }
 
+@media (max-width: 670px) {
+    .srvices__desc::before {
+        transform: translate(-33px, 5px);
+        height: 257%;
+    }
+}
+
 @media (max-width: 550px) {
     .header {
         margin: 30px 0 50px 0;
     }
+
+    .srvices__desc::before {
+        transform: translate(-7px, 3px);
+        height: 229%;
+    }
+
+    .services__price{
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .srvices__desc::before {
+        transform: translate(23px, 1px);
+        height: 200%;
+    }
+
+    .services__price{
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+}
+
+
+
+
+
+@media (max-width: 360px) {
+
+    .srvices__desc::before {
+        transform: translate(74px, 1px);
+        height: 146%;
+    }
+    
 }
