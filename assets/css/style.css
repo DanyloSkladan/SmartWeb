@@ -241,8 +241,9 @@ h6 {
     position: absolute;
     content: "";
     border-right: 2px solid rgba(235, 235, 235, 0.8);
-    transform: translate(192px, -17px);
-    height: 222px;
+    left: 99%;
+    transform: translateY(-10px);
+    height: 216px;
 }
 
 .services__img{
