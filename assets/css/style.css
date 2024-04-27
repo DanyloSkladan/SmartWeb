@@ -246,6 +246,11 @@ h6 {
     height: 216px;
 }
 
+
+.srvices__desc:last-child::before{
+    display: none;
+}
+
 .services__img{
     margin-bottom: 23px;
 }
