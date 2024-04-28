@@ -323,8 +323,8 @@ h6 {
 
 .offering__logo{
     position: absolute;
-    left: -50%;
-    transform: translate(206%, -46%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .offering__btn img{
