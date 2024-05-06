@@ -358,6 +358,13 @@ h6 {
 
 }
 
+@media (max-width: 980px) {
+    .offering__box{
+        grid-gap: 30px;
+    }
+}
+
+
 @media (max-width: 900px) {
     .head__content-box {
         align-items: center;
@@ -418,6 +425,12 @@ h6 {
     .services__title {
         font-size: 35px;
         margin-bottom: 25px;
+    }
+
+
+    .offering__box{
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
 
