@@ -334,6 +334,28 @@ h6 {
 }
 
 
+.offering{
+    margin-bottom: 120px;
+}
+
+
+.creative__title{
+    display: flex;
+    justify-content: center;
+    font-family: "DMsans", sans-serif;
+    color: #3d3d3f;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 55px;
+}
+
+
+.creative__box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+
 
 
 
@@ -431,6 +453,12 @@ h6 {
     .offering__box{
         display: grid;
         grid-template-columns: 1fr;
+        grid-gap: 80px;
+    }
+
+
+    .offering{
+        margin-bottom: 120px;
     }
 
 
