@@ -379,12 +379,12 @@ h6 {
 
 }
 
-.creative{
-    margin-bottom: 60px;
+.creative {
+    margin-bottom: 120px;
 }
 
 
-.creative__btn-container{
+.creative__btn-container {
     display: flex;
     justify-content: center;
 }
@@ -402,10 +402,21 @@ h6 {
 }
 
 
+.meet__title {
+    display: flex;
+    justify-content: center;
+    font-family: "DMsans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #3d3d3f;
+    margin-bottom: 44px;
+}
 
 
-
-
+.meet__box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 
 
