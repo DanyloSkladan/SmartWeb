@@ -430,7 +430,7 @@ h6 {
     background: linear-gradient(138deg, rgba(254, 254, 254, 0) 0%, #f9f9f9 0.01%, rgba(254, 254, 254, 0.51) 100%);
     border-radius: 10px;
     width: 85%;
-    height: 400px
+    height: 380px;
 }
 
 
@@ -473,7 +473,9 @@ h6 {
 
 
 .meet__logo-box {
-    display: grid;
+    display: flex;
+    justify-content: center;
+    gap: 9px
    
 }
 
