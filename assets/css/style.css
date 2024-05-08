@@ -413,15 +413,30 @@ h6 {
 }
 
 
-.meet__box{
+.meet__box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 
-.meet_image{
+.meet__item {
+    margin: 0 auto;
+    text-align: center;
+    /* border: 1px solid #eeeff1; */
+    box-shadow: 0 4px 120px 0 rgba(0, 0, 0, 0.05);
+    background: linear-gradient(138deg, rgba(254, 254, 254, 0) 0%, #f9f9f9 0.01%, rgba(254, 254, 254, 0.51) 100%);
+    border-radius: 10px;
+    width: 267px;
+    height: 400px
+}
+
+
+
+
+.meet_image {
     border-radius: 10px;
 }
+
 
 
 
