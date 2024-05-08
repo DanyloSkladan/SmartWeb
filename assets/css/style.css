@@ -365,6 +365,9 @@ h6 {
 }
 
 .creative__image {
+    border-radius: 10px;
+    max-width: 100%;
+    margin-bottom: 18px;
     margin-bottom: 20px;
 }
 
@@ -476,7 +479,6 @@ h6 {
     display: flex;
     justify-content: center;
     gap: 9px
-   
 }
 
 
@@ -500,7 +502,15 @@ h6 {
     .offering__box {
         grid-gap: 30px;
     }
+
+    .creative__subtitle {
+        margin-bottom: 10px;
+        font-size: 105%;
+    }
+
 }
+
+
 
 
 @media (max-width: 900px) {
@@ -537,6 +547,12 @@ h6 {
     }
 }
 
+@media (max-width: 800px) {
+    .creative__box {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+}
 
 @media (max-width: 760px) {
     .services__price {
