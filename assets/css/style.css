@@ -420,6 +420,7 @@ h6 {
 .meet__box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4px;
 }
 
 
@@ -433,8 +434,9 @@ h6 {
     box-shadow: 0 4px 120px 0 rgba(0, 0, 0, 0.05);
     background: linear-gradient(138deg, rgba(254, 254, 254, 0) 0%, #f9f9f9 0.01%, rgba(254, 254, 254, 0.51) 100%);
     border-radius: 10px;
-    width: 85%;
-    height: 380px;
+    width: fit-content;
+    padding-right: 13px;
+    padding-left: 13px;
 }
 
 
@@ -444,6 +446,7 @@ h6 {
     border-radius: 10px;
     max-width: 100%;
     margin-bottom: 18px;
+
 }
 
 
@@ -456,6 +459,8 @@ h6 {
 }
 
 .meet__name {
+    display: flex;
+    justify-content: center;
     font-family: "DMsans", sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -476,11 +481,44 @@ h6 {
 }
 
 
-.meet__logo-box {
+
+
+.meet__title .meet__logo-box {
     display: flex;
-    justify-content: center;
-    gap: 9px
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    gap: 9px;
+    max-width: 100%;
+    m
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -602,10 +640,10 @@ h6 {
         margin-bottom: 120px;
     }
 
-    .creative__title{
+    .creative__title {
         text-align: center;
         margin-bottom: 40px;
-        
+
     }
 
 }
@@ -657,7 +695,7 @@ h6 {
         margin-bottom: 30px;
     }
 
-    .creative__title{
+    .creative__title {
         font-size: 32px;
     }
 }
