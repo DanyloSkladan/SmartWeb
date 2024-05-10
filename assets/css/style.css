@@ -420,7 +420,7 @@ h6 {
 .meet__box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 50px;
+    grid-gap: 36px;
 }
 
 
@@ -501,7 +501,7 @@ h6 {
     justify-content: center;
     gap: 10px;
     margin-bottom: 25px;
-    
+
 }
 
 
@@ -623,17 +623,23 @@ h6 {
 }
 
 
-@media (max-width: 790px){
-    .meet__item {
+@media (max-width: 790px) {
+
+    .meet__title {
+        font-size: 36px;
+        margin-bottom: 20px;
     }
+
+
+
     .meet_image {
         margin-bottom: 15px;
     }
-    .meet__name {
-    }
-    
 
-    .meet__text{
+
+
+
+    .meet__text {
         padding-bottom: 10px;
     }
 
@@ -688,8 +694,10 @@ h6 {
     }
 
     .meet__box {
+        margin: 0 auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        max-width: 75%;
     }
 
     /* .meet__box{
@@ -720,9 +728,29 @@ h6 {
 
     }
 
-    /* .meet__box{
-        grid-gap: 40px;
-    } */
+
+
+
+    .meet__box{
+        grid-gap: 15px;
+    }
+
+    .meet__title {
+        
+    }
+
+    .meet_image {
+        
+    }
+
+    .meet__text {
+       
+    }
+
+    .meet__logo-box  {
+       
+        
+    }
 }
 
 @media (max-width: 550px) {
