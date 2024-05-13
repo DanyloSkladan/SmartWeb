@@ -527,6 +527,12 @@ h6 {
 
 
 
+.form__box{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+
 
 
 
