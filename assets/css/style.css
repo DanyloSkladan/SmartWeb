@@ -405,6 +405,9 @@ h6 {
     color: #fff;
 }
 
+.meet {
+    margin-bottom: 120px;
+}
 
 .meet__title {
     display: flex;
@@ -509,6 +512,18 @@ h6 {
     max-width: 100%;
 }
 
+
+
+.contacts__title {
+    display: flex;
+    justify-content: center;
+    font-family: "DMsans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #3d3d3f;
+    margin-bottom: 65px;
+}
 
 
 
@@ -731,26 +746,17 @@ h6 {
 
 
 
-    .meet__box{
+    .meet__box {
         grid-gap: 15px;
     }
 
-    .meet__title {
-        
-    }
+    .meet__title {}
 
-    .meet_image {
-        
-    }
+    .meet_image {}
 
-    .meet__text {
-       
-    }
+    .meet__text {}
 
-    .meet__logo-box  {
-       
-        
-    }
+    .meet__logo-box {}
 }
 
 @media (max-width: 550px) {
@@ -835,7 +841,7 @@ h6 {
         height: 146%;
     }
 
-    .meet__box{
+    .meet__box {
         grid-template-columns: 1fr;
     }
 
