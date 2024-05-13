@@ -835,4 +835,8 @@ h6 {
         height: 146%;
     }
 
+    .meet__box{
+        grid-template-columns: 1fr;
+    }
+
 }
