@@ -527,10 +527,70 @@ h6 {
 
 
 
-.form__box{
+
+.form__box {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 36px;
+    max-width: 600px;
+    margin: auto;
 }
+
+.form-container label {
+    grid-column: 1 / 2;
+    text-align: right;
+    padding-right: 10px;
+
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+    grid-column: 2 / 2;
+    width: 100%;
+    resize: none;
+}
+
+
+.item__big {
+    margin: 0 auto;
+    max-width: 600px;
+
+}
+
+.item label {
+    font-family: "DMsans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #3d3d3f;
+
+
+}
+
+.form__subtitle {
+    margin-bottom: 10px;
+}
+
+.item__big label {
+    font-family: "DMsans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #3d3d3f;
+}
+
+
+
+.item input {
+    box-shadow: 0 4px 120px 0 rgba(0, 0, 0, 0.03);
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 16px;
+}
+
 
 
 
