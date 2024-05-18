@@ -587,10 +587,36 @@ h6 {
     background: #fff;
     border: none;
     border-radius: 5px;
-    height: 30px;
+    height: 38px;
     margin-bottom: 16px;
 }
 
+
+.item__big textarea {
+    box-shadow: 0 4px 120px 0 rgba(0, 0, 0, 0.03);
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.item input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    color: #515155;
+    opacity: 0.4;
+    padding-left: 12px;
+}
+
+
+.item__big textarea::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+    color: #515155;
+    opacity: 0.4;
+    padding-left: 12px;
+    padding-top: 19px;
+}
 
 
 
