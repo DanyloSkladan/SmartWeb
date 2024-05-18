@@ -597,7 +597,7 @@ h6 {
     background: #fff;
     border: none;
     border-radius: 5px;
-
+    margin-bottom: 51px;
 }
 
 .item input::placeholder {
@@ -609,7 +609,7 @@ h6 {
 }
 
 
-.item__big textarea::placeholder{
+.item__big textarea::placeholder {
     font-weight: 400;
     font-size: 14px;
     color: #515155;
@@ -619,9 +619,36 @@ h6 {
 }
 
 
+.contacts__form {
+    margin: 0 auto;
+    max-width: 600px;
+}
 
 
 
+
+
+.form__btn {
+    display: flex;
+    justify-content: end;
+}
+
+
+.form__button {
+    font-family: "DMsans", sans-serif;
+    background: linear-gradient(180deg, #f35f2f 0%, rgba(243, 95, 47, 0.75) 100%);
+    opacity: 0.85;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding-bottom: 13px;
+    padding-top: 14px;
+    padding-right: 23px;
+    padding-left: 23px;
+    text-align: center;
+}
 
 
 
@@ -842,13 +869,6 @@ h6 {
         grid-gap: 15px;
     }
 
-    .meet__title {}
-
-    .meet_image {}
-
-    .meet__text {}
-
-    .meet__logo-box {}
 }
 
 @media (max-width: 550px) {
