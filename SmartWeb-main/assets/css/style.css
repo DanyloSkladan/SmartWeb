@@ -526,7 +526,9 @@ h6 {
 }
 
 
-
+.form {
+    margin-bottom: 120px;
+}
 
 .form__box {
     display: grid;
@@ -652,19 +654,62 @@ h6 {
 }
 
 
-.cubscribe__content--box {
+.subscribe__content--box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 
-.subscribe__item a{
-    display: block;
-    
+.subscribe__title {
+    text-align: center;
+}
+
+.subscribe__item a {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    row-gap: 20px;
+    font-family: "DMsans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #646464;
+
+}
+
+.subscribe__item {
+    display: grid;
+    grid-gap: 24px;
 }
 
 
+.subscribe__title {
+    font-family: "DMsans", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    color: #323232;
+}
 
+.subscribe__contacts {
+    display: grid;
+    grid-gap: 16px;
+}
+
+.subscribe__contacts p {
+    font-family: "DMsans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    color: #646464;
+}
+
+
+.subscribe__logo--box {
+    display: flex;
+    flex-direction: none;
+    gap: 16px;
+}
 
 
 
