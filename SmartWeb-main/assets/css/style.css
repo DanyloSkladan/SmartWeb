@@ -711,6 +711,54 @@ h6 {
     gap: 16px;
 }
 
+.subscribe__form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+
+.subscribe__title--form {
+    font-family: "DMsans", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    color: #3d3d3f;
+}
+
+.subscribe__form p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    color: #646464;
+}
+
+.contacts__form--box {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.contacts__form--box input {
+    border: 1.10px solid #e1e2e4;
+    border-radius: 5px;
+    width: 292px;
+    height: 40px;
+}
+
+
+.contacts__form--box button {
+    font-family: "DMsans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    width: 292px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(180deg, #f35f2f 0%, rgba(243, 95, 47, 0.75) 100%);
+    stroke-width: 1.10px;
+    color: #e1e2e4;
+}
+
 
 
 
