@@ -652,8 +652,16 @@ h6 {
 }
 
 
+.cubscribe__content--box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 
+.subscribe__item a{
+    display: block;
+    
+}
 
 
 
@@ -966,11 +974,11 @@ h6 {
         grid-gap: 10px;
     }
 
-    .form-container{
+    .form-container {
         gap: 10px;
     }
 
-    .form__btn{
+    .form__btn {
         display: flex;
         justify-content: center;
     }
