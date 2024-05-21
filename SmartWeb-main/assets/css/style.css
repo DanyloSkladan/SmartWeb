@@ -694,8 +694,8 @@ h6 {
 .subscribe__contacts {
     display: grid;
     grid-gap: 16px;
-    
-    
+
+
 
 }
 
@@ -726,9 +726,9 @@ h6 {
 }
 
 
-.subscribe__logo--box img{
+.subscribe__logo--box img {
     max-width: 32px;
-    max-height: 32px ;
+    max-height: 32px;
 }
 
 
@@ -789,6 +789,50 @@ h6 {
     background: linear-gradient(180deg, #f35f2f 0%, rgba(243, 95, 47, 0.75) 100%);
     stroke-width: 1.10px;
     color: #e1e2e4;
+}
+
+
+
+
+
+.subscribe {
+    margin-bottom: 31px;
+}
+
+
+.footer {
+    border-top: 1px solid rgba(150, 150, 150, 0.2);
+
+}
+
+.footer__content--box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+
+
+.footer__content--left {
+    font-family: "DMsans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #646464;
+
+}
+
+
+
+.footer__content--right {
+    display: flex;
+    justify-content: space-between;
+    gap: 53px;
+    font-family: "DMsans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #646464;
 }
 
 
