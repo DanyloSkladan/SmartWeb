@@ -655,8 +655,8 @@ h6 {
 
 
 .subscribe__content--box {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+  display: flex;
+  justify-content: space-between;
 }
 
 
@@ -702,11 +702,18 @@ h6 {
 
 
 
-.subscribe__item--box {
+/* .subscribe__item--box {
     display: flex;
-    justify-content: center;
-    transform: translateX(-60px);
-    gap: 30%;
+    justify-content: space-between;
+    gap: 10px;
+    
+} */
+
+
+.subscribe__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 
@@ -735,7 +742,7 @@ h6 {
 .subscribe__form {
     display: grid;
     grid-gap: 10px;
-    /* transform: translateX(150px); */
+    max-width: 300px;
 }
 
 
@@ -764,7 +771,7 @@ h6 {
 .contacts__form--box input {
     border: 2px solid #e1e2e4;
     border-radius: 5px;
-    max-width: 290px;
+    width: 300px;
     height: 40px;
 }
 
@@ -782,7 +789,7 @@ h6 {
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
-    max-width: 297px;
+    width: 308px;
     height: 45px;
     border-radius: 5px;
     border: 2px solid #e1e2e4;
